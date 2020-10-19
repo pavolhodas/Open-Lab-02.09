@@ -7,7 +7,6 @@ namespace Open_Lab_02._09
         public string ConcatName(string firstName, string lastName)
         {
             string name = string.Format(lastName + ", " + firstName);
-            Console.WriteLine(name);
             return name;
         }
     }
